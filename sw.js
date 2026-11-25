@@ -26,7 +26,7 @@ const CACHE_PREFIX = 'iclock-shell-';
 // build.js replaces the whole token textually. It also asserts the stamped
 // name still starts with CACHE_PREFIX, so the two cannot drift apart and
 // quietly disable cleanup of old iClock shells.
-const CACHE_NAME = 'iclock-shell-beta6-1122g';
+const CACHE_NAME = 'iclock-shell-beta6-1124a';
 
 const PRECACHE = [
   './',

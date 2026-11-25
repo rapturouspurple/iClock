@@ -229,6 +229,8 @@
     <div class="btn-caption" id="capBackup">A copy of everything, in case you switch phones.</div>
     <button class="export-btn" id="btnImportBackup" onclick="document.getElementById('importBackupInput').click()">Restore from Backup</button>
     <div class="btn-caption" id="capImportBackup">Load a backup you saved before.</div>
+    <button class="export-btn" id="btnUndoRestore" onclick="undoRestore()" style="display:none">Undo Last Restore</button>
+    <div class="btn-caption" id="capUndoRestore" style="display:none">Puts back the data you had before your last restore.</div>
     <input type="file" id="importBackupInput" accept=".html,.json" style="display:none" onchange="handleImportBackupChange(event)">
     <button class="export-btn" id="btnExport" onclick="exportCSV()">Download Hours (Excel)</button>
     <div class="btn-caption" id="capExportCSV">A spreadsheet of your hours, for payroll or printing.</div>
